@@ -1,0 +1,51 @@
+.loginSection{
+    @apply pr-10 
+}
+
+.loginCol{
+    @apply flex flex-col items-end gap-6 mt-20
+}
+
+.loginCol h1{
+    @apply text-5xl font-semibold mb-3 
+}
+
+.loginCol input{
+    @apply w-[300px] outline-none border-b-2 border-slate-400 bg-transparent
+}
+
+.loginInput, .loginPasswordInput{
+    @apply relative
+}
+
+.loginInput li, .loginPasswordInput li{
+    @apply absolute bottom-[-15px] left-0 text-xs text-red-400
+}
+
+.loginPasswordInput .loginPassShow{
+    @apply absolute top-0 right-0 text-[25px]
+}
+
+.loginButton{
+    @apply px-24 py-5 bg-black text-white rounded-xl 
+}
+
+.loginInfoCol{
+    @apply w-[250px] absolute z-[1000] top-20 
+}
+
+.loginInfoCol h2{
+    @apply text-6xl text-white text-start
+}
+
+.loginInfoCol p{
+    @apply  text-white mt-10 text-start 
+}
+
+.noAccount{
+    @apply flex items-center gap-2 
+}
+
+.noAccount li{
+    @apply font-semibold duration-200 will-change-transform cursor-pointer
+}

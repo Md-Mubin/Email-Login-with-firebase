@@ -1,0 +1,32 @@
+.authSection{
+    @apply pt-14 h-[100vh] bg-[url('images/bubbles.svg')]
+}
+
+.authSection h1{
+    @apply text-center text-7xl font-medium
+}
+
+.authRow{
+    @apply flex justify-between items-center
+}
+
+.authRow .image1{
+    @apply w-[800px] top-10
+}
+
+.authCol{
+    @apply flex flex-col items-center 
+}
+
+.authCol img{
+    @apply w-[200px]
+}
+
+.authCard{
+    @apply w-[700px] h-[450px] border-2 border-black rounded-[25px] relative overflow-hidden  flex justify-between
+}
+
+.authCard span{
+    @apply w-[1100px] h-[1100px] bg-black absolute z-[10] pointer-events-none top-[-650px] duration-[1s] 
+}
+
