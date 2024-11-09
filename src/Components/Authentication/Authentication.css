@@ -1,5 +1,5 @@
 .authSection{
-    @apply pt-14 h-[100vh] bg-[url('images/bubbles.svg')]
+    @apply pt-14 h-[100vh] bg-[url('/images/bubbles.svg')]
 }
 
 .authSection h1{
