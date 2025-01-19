@@ -30,7 +30,9 @@ const Home = () => {
                             speed={1}
                         />
                     </div>
-                    <button onClick={() => { handleDarkmode() }} className='px-4 py-2 text-black bg-white dark:bg-black dark:text-white ml-[90%] rounded-xl hover:scale-125 will-change-transform'>
+
+                    {/* ============= for dark/light mode ============= */}
+                    <button onClick={() => { handleDarkmode() }} className='px-4 py-2 text-black bg-white dark:bg-black dark:text-white ml-[90%] rounded-xl hover:scale-125 duration-200 will-change-transform'>
                         {
                             darkMode ? "Dark Mode" : "Light Mode"
                         }
