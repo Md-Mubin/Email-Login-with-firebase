@@ -1,7 +1,7 @@
 // ================== All Importrs
 "use client";
 import React, { useState } from 'react'
-import { SparklesCore }  from '../../Components/ui/sparkles'
+import { SparklesCore }    from '../../Components/ui/sparkles'
 
 const Home = () => {
 
